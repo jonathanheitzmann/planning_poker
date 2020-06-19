@@ -1,0 +1,68 @@
+﻿body {
+    font-family: Arial;
+    text-align: center !important;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-rows:10% 15% 80%; 
+    }
+
+    div.Kopfleite {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    h1 {
+        
+        max-height: 80%;
+        height: 100%;
+        
+    }
+
+    div.content {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    button, input.button input.submit{
+        max-height: 80%;
+        font-size: 100%;
+        background-color: khaki;
+        border: 0pt solid;
+        font-size: 1em;
+        height: 35px;
+        width: 150px;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        border: 0pt solid;
+    }
+
+    td, th {
+        border: 0pt solid;
+        border-bottom: 1px solid #000000;
+    }
+
+    @media (orientation: portrait) and (min-width: 550px ){
+        body{
+            font-size: 200%;
+            grid-template-rows:6% 10% 84%; 
+        }
+        input{
+            height: 70px;
+            width: 300px;
+            font-size: 125%;
+        }
+        button, input.button {
+            height: 70px;
+            width: 300px;
+        }
+        table {
+            font-size: 125%;
+        }
+    }
